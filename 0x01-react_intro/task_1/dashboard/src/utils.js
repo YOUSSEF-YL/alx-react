@@ -1,12 +1,3 @@
-// Create a function named getFullYear that will return the current year
-export function getFullYear() {
-    return new Date().getFullYear();
-}
+export const getFullYear = () => new Date().getFullYear();
 
-// Create a function named getFooterCopy that will return the following string
-export function getFooterCopy(isIndex) {
-    if (isIndex) {
-        return 'Holberton School';
-    }
-    return 'Holberton School main dashboard';
-}
+export const getFooterCopy = (isIndex) => (isIndex ? "Holberton School" : "Holberton School main dashboard");

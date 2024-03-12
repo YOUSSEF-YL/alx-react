@@ -1,8 +1,4 @@
-/* src/Notifications.css */
-.Notifications {
-    background-color: #eb8c94;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #f5c6cb;
-    border-radius: 5px;
+.Notifications{
+    border: 2px solid #eb2525;
+    padding: 1rem;
 }
